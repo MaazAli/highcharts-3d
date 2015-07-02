@@ -9,10 +9,10 @@ Package.onUse(function (api) {
     api.versionsFrom('METEOR@1.0.3.2');
     api.use('jquery');
     api.use('templating');
-    
+
     // basic highcharts
-    api.use('maazalik:highcharts@0.3.1');
-    api.imply('maazalik:highcharts@0.3.1');
+    api.use('maazalik:highcharts@0.3.0');
+    api.imply('maazalik:highcharts@0.3.0');
     // gauge
     api.addFiles([
       'lib/highcharts-3d.js',
